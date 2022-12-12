@@ -7,7 +7,7 @@ wn = turtle.Screen()
 tess = turtle.Turtle()
 
 
-def triangle(x, y):
+def create_triangle(x, y):
     # desenhar a caneta
     tess.penup()
 
@@ -31,7 +31,7 @@ def triangle(x, y):
 
 # função especial integrada para enviar corrente
 # posição do cursor para o triângulo
-turtle.onscreenclick(triangle, 1)
+turtle.onscreenclick(create_triangle, 1)
 
 turtle.listen()
 

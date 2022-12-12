@@ -4,7 +4,7 @@ import turtle
 import math
 
 
-def fiboPlot(n):
+def create_fibo(n):
     a = 0
     b = 1
     square_a = a
@@ -78,7 +78,7 @@ if n > 0:
     print("Série de Fibonacci para", n, "elementos: ")
     x = turtle.Turtle()
     x.speed(100)
-    fiboPlot(n)
+    create_fibo(n)
     turtle.done()
 else:
     print("O número de iterações deve ser > 0")
